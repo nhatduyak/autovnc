@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Path Value="vncviewer.exe" />
+  <Sleep Value="100" />
+  <ProcessName Value="vncviewer" />
+  <ControlIDIP Value="1002" />
+  <ControlIDPass Value="1000" />
+  <PointAppClo Value="509,641" />
+  <PointADAPP Value="716,281" />
+  <PointRightClick Value="716,81" />
+  <PointStartApp Value="347,107" />
+  <PointFirtApp Value="347,107" />
+  <PointVNCConnect Value="561,429" />
+  <PointOK Value="651,357" />
+  <SLApp Value="3" />
+  <WidthApp Value="100" />
+  <HightApp Value="110" />
+  <Time1to24 Value="50,47,35,35,40,15,17,37,10,6,12,18,6,10,22,10,32,17,30,45,40,35,30,45" />
+  <time1Connectvnc Value="2000" />
+  <time2inputPass Value="5000" />
+  <time3Connect Value="2000" />
+  <time4rightclick Value="4000" />
+  <time5closeapp Value="5500" />
+  <time6startapp Value="2500" />
+  <IDFA Value="403,640" />
+  <IDFASett Value="332,90" />
+  <IDFAIden Value="510,710" />
+  <IDFAGen Value="510,319" />
+  <SoluongReset Value="2" />
+  <Link Value="510,50" />
+  <ReLink Value="400,315" />
+  <SetLink Value="513,610" />
+</Config>

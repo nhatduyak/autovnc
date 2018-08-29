@@ -1,0 +1,7 @@
+C:\Users\npnhatduy\Documents\Reflector\Disassembler\NPNDAutoVNC_link\bin\Debug\NPNDAutoVNC_link.exe
+C:\Users\npnhatduy\Documents\Reflector\Disassembler\NPNDAutoVNC_link\bin\Debug\NPNDAutoVNC_link.pdb
+C:\Users\npnhatduy\Documents\Reflector\Disassembler\NPNDAutoVNC_link\obj\x86\Debug\NPNDAutoVNC_link.exe
+C:\Users\npnhatduy\Documents\Reflector\Disassembler\NPNDAutoVNC_link\obj\x86\Debug\NPNDAutoVNC_link.pdb
+C:\Users\npnhatduy\Documents\Reflector\Disassembler\NPNDAutoVNC_link\obj\x86\Debug\NPNDAutoVNC.Form1.resources
+C:\Users\npnhatduy\Documents\Reflector\Disassembler\NPNDAutoVNC_link\obj\x86\Debug\NPNDAutoVNC_link.csproj.GenerateResource.Cache
+C:\Users\npnhatduy\Documents\Reflector\Disassembler\NPNDAutoVNC_link\obj\x86\Debug\NPNDAutoVNC_link.csprojResolveAssemblyReference.cache

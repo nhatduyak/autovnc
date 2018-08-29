@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <funtion>
+    <Des>InputIP</Des>
+    <X>10</X>
+    <Y>10</Y>
+    <CtrID>1</CtrID>
+    <MemID>1</MemID>
+  </funtion>
+  <funtion>
+    <Des>InputIP</Des>
+    <X>10</X>
+    <Y>10</Y>
+    <CtrID>1</CtrID>
+    <MemID>1</MemID>
+  </funtion>
+  <funtion>
+    <Des>InputIP</Des>
+    <X>10</X>
+    <Y>10</Y>
+    <CtrID>1</CtrID>
+    <MemID>1</MemID>
+  </funtion>
+  <funtion>
+    <Des>InputIP</Des>
+    <X>10</X>
+    <Y>10</Y>
+    <CtrID>1</CtrID>
+    <MemID>1</MemID>
+  </funtion>
+  <funtion>
+    <Des>InputIP</Des>
+    <X>10</X>
+    <Y>10</Y>
+    <CtrID>1</CtrID>
+    <MemID>1</MemID>
+  </funtion>
+</DocumentElement>

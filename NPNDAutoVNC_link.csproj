@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A91CD4B2-CEA9-419D-992E-CE0197C6C577}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>NPNDAutoVNC_link</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <EmbeddedResource Include="NPNDAutoVNC\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+    <Reference Include="WindowScrape">
+      <HintPath>bin\Debug\WindowScrape.dll</HintPath>
+    </Reference>
+    <Reference Include="Gma.UserActivityMonitor">
+      <HintPath>bin\Debug\Gma.UserActivityMonitor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="NPNDAutoVNC\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NPNDAutoVNC\Program.cs" />
+    <Compile Include="NPNDAutoVNC\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NPNDAutoVNC\MousePoint.cs" />
+    <Compile Include="NPNDAutoVNC\CTLConfig.cs" />
+    <Compile Include="NPNDAutoVNC\CtlError.cs" />
+    <Compile Include="NPNDAutoVNC\CTLImportExcel.cs" />
+    <Compile Include="NPNDAutoVNC\auclick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NPNDAutoVNC\XmlSerializationHelper.cs" />
+    <Compile Include="NPNDAutoVNC\Properties\Resources.cs" />
+    <Compile Include="NPNDAutoVNC\NetworkDrive.cs" />
+    <Compile Include="NPNDAutoVNC\Properties\Settings.cs" />
+    <Compile Include="NPNDAutoVNC\CTLImportFileCSV.cs" />
+  </ItemGroup>
+</Project>
